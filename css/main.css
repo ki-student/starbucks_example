@@ -1,0 +1,28 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s .5s;
+  /* 앞은 지속시간, 뒤는 대기시간 */
+}
+
+.box:active {
+  width: 300px;
+  background-color: blue;
+}
+
+.box::after {
+  content: "back!";
+  display: block;
+  width: 40px;
+  height: 30px;
+  background-color: blue;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.fruits *:not(span) {
+  color: red;
+}

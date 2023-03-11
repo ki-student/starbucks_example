@@ -1,0 +1,13 @@
+.parent {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+}
+.child {
+  width: 100px;
+  height: inherit;
+  background-color: blue;
+  position: fixed;
+  top: 40px;
+  right: 10px;
+}

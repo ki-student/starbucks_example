@@ -1,0 +1,17 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  font-size: 24px;
+  color: white;
+  margin: 20px;
+  border: 3px dashed red;
+}
+p {
+  top: 30px;
+  left: 87px;
+  position: absolute;
+  font-style: italic;
+  font-weight: 700;
+}
